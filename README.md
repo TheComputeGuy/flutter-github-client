@@ -1,16 +1,19 @@
-# github_client
+# Flutter Github Client
 
-A new Flutter project.
+A windows desktop app that integrates with Github OAuth to act as a limited alternative client for Github. Built to understand and work with Flutter for desktop app development
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
+Need flutter SDK as well as Visual Studio to build and run the app
 
-A few resources to get you started if this is your first Flutter project:
+### Debug and build
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+To debug, run the following command in your terminal:
+```
+flutter run
+```
+To build, run the following command in your terminal:
+```
+flutter build windows
+```
